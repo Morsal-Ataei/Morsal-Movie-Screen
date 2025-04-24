@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .theater {
+    text-align: center;
+    background-color: #111;
+    padding: 30px;
+    border: 5px solid  rgb(60, 46, 52);
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgb(60, 46, 52);
+    max-width: 800px;
+    width: 90%;
+    position: relative;
+  }
+  h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgb(31, 6, 51), 0 0 20px rgb(31, 6, 51);
+    margin-bottom: 30px;
+  }
+  .screen-frame {
+    position: relative;
+    background: black;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px #000;
+    margin-bottom: 20px;
+  }
+  video {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #444;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  button {
+    background: rgb(73, 55, 57);
+    border: none;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(73, 55, 57);
+    transition: 0.3s ease;
+    margin-top: 2%;
+  }
+  
+  button:hover {
+    background: #fff;
+    color:rgb(73, 55, 57);
+    box-shadow: 0 0 20px #fff;
+  }
